@@ -1,0 +1,13 @@
+
+This project focuses on containerization, exploring how to containerize an existing application efficiently. We'll discuss the need for container technologies and real-world use cases.
+
+Traditional deployment models often lead to resource inefficiencies and operational complexities, especially in managing multi-tier application stacks. Containers offer a transformative solution by reducing resource consumption and streamlining deployment processes, ideal for agile and microservices architectures.
+
+Statistics highlight the widespread adoption of containers across industries, emphasizing their role in production environments and DevOps practices.
+
+Our project aims to containerize the V-profile application stack using Docker. We'll create Dockerfiles to customize services like Engine X, Tomcat, and MySQL, orchestrate containers with Docker Compose, and push customized images to Docker Hub.
+
+we are going to use a Docker as our container runtime environment to build images and we're going to contemporize our V profile application stack.
+
+WORKFLOW
+First, we're going to write Docker file.For the services that needs customization.So we have Engine X, Tomcat and MySQL,so we have to write three Docker files.Once we have written Docker file in our source code, then we are going to use a Docker build command which will get executed on a Docker engine in a Docker file.We should have mentioned the base image.This base images will be pulled from Docker Hub.So Tomcat, Engine X and MySQL, these are three images that we are going to pull and customize them.So Docker will Command is going to read the Docker file.Build our image.Once our images are ready, we're going to use a Docker compose.We'll mention all the containers with the images and then we're going to test it.Once it checks out, fine, then we're going to push our Docker images, the customised Docker images,to Docker Hub in our own account.
