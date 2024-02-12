@@ -1,3 +1,5 @@
+![Containerization of Java Project using Docker](https://github.com/Sachinsharmak/Containerization-Of-Java-Application-Using-Docker/assets/90332526/4907b52b-044f-4f47-bd96-0f6b9cac308d)
+
 1. This project focuses on containerization, exploring how to containerize an existing application efficiently. We'll discuss the need for container technologies and real-world use cases.
 
 2. Traditional deployment models often lead to resource inefficiencies and operational complexities,
